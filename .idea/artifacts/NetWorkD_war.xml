@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NetWorkD:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="NetWork.war">
+      <element id="artifact" artifact-name="NetWorkD:war exploded" />
+    </root>
+  </artifact>
+</component>

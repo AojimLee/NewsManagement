@@ -1,0 +1,25 @@
+#table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	table-layout: fixed;
+	width:50%;
+}
+
+
+#table td{
+	width: 300px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width:50%;
+	border: 1px solid black;
+}
+
+.page{
+	position:absolute;
+	left:1100px;
+}

@@ -1,0 +1,270 @@
+* {
+	margin 0;
+	padding: 0;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.publicwidth {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*公共样式*/
+
+.function_list {
+	width: 100%;
+	height: 25px;
+	background-color: #b4e5f3;
+	margin: 0px;
+}
+
+.function_list a:hover {
+	text-decoration: underline;
+}
+
+.search {
+	width: 100%;
+	height: 212px;
+	background: whitesmoke;
+	/*position: fixed;*/
+	/*background-size: cover;*/
+}
+
+.logo {
+	width: 250px;
+	height: 150px;
+	background: url(../img/QQ图片20180801104143.jpg);
+	background-size: cover;
+	margin: 20px 0 0 325px;
+}
+
+.search p {
+	position: relative;
+	top: 90px;
+	left: -200px;
+	text-align: center;
+	font-size: 22px;
+	/*line-height: 15px;*/
+	font-family: KaiTi;
+}
+
+
+/*导航栏上方的板块*/
+
+.nav_list {
+	height: 50px;
+	margin-left: 30px;
+}
+
+.nav_list li {
+	float: left;
+	display: inline-block;
+	padding: 0 30px;
+	font-size: 20px;
+}
+
+.nav_list a {
+	color: #000;
+	height: 46px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.nav_list a:hover {
+	color: red;
+}
+
+.broadcast {
+	width: 920px;
+	height: 460px;
+	/*padding: 20px;*/
+	background-color: #3F89EC;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*.banner_images {*/
+	/*width: 4600px;*/
+	/*height: 460px;*/
+	/*overflow: hidden;*/
+/*}*/
+
+/*.banner_img img {*/
+	/*width: 960px;*/
+	/*height: 460px;*/
+	/*float: left;*/
+/*}*/
+
+/*轮播图的盒模型，剩余代码在另外一个css文件里*/
+
+.news2_header{
+	border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+	padding-bottom: 20px;
+    height: 36px;
+    width: 700px;
+    margin-top: 50px;
+}
+.news2_header p{
+	font-size: 20px;
+    font-weight: 400;	
+}
+.news2_header .p2 a{
+	font-size: 12px;
+	color: grey;
+	padding-top: 20px;
+}
+
+.news2_main{
+	width: 750px;
+	height: 730px;
+}
+.news2_n1{
+	float: left;
+	padding-right: 20px;
+}
+
+
+.news2_n1 img{
+	width: 345px;
+	height: 196px;
+	margin-top: -2px;
+}
+/*第二部分新闻，在轮播图下，要图片，标题，作者*/				
+.news3_header p{
+	font-size: 20px;
+    font-weight: 400;
+    /*margin-top: -25px;*/	
+    padding-bottom: 8px;
+    float: left;
+    margin: 0;
+}
+.news3_header{
+	border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+	/*padding-bottom: -10px;*/
+	margin-top: -37px; 
+	width: 250px;
+}
+
+.news3_list{
+	width: 250px;
+	float: right;
+	height:36px ;
+}
+
+.news3_list li{
+	line-height: 25px;
+	height: 36px;
+	font-size: 17.5px;
+	padding-bottom: 10px;
+}
+
+.news3_list a{
+	color: #0066cc;
+	width: 200px;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	
+}
+
+
+.news3_list a:hover{
+	text-decoration: underline;
+	/*color: ;*/
+}
+
+/*span用于设置时间显示的位置*/
+.news3_list span{
+    display: block;
+    /*width: 35px;*/
+    /*height: 36px;*/
+    text-align: right;
+    line-height: 25px;
+    /*position: absolute;
+    right: 0;
+    top: 0;*/
+   float: right;
+    font-size: 14px;
+    color: #666;
+}
+
+/*第三部分新闻*/
+
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: #f5f5f5;
+	position: fixed;
+	bottom: 0;
+}
+
+
+.footer p{
+		line-height: 36px;
+	text-align: center;
+	color: #b6b6b6;
+}
+
+/*补充功能*/
+#unlanding{
+	display: block;
+	/*visibility: visible;*/
+}
+#landing{
+	display: none;	
+}
+
+
+#landing input{
+	border: none;
+	background-color: #b4e5f3;
+	font-size: 15px;
+	text-align: right;
+	width: 80px;
+	}
+	
+#landing a{
+	cursor: pointer;
+}
+/*这部分是用于再用户登陆后切换为用户名*/
+#search_input{
+	border: 1px solid #edb970;
+	border-right: none;
+	margin: 20px 80px 0 0;
+	/*margin-right: 30px;*/
+	width: 220px;
+	height: 35px;
+	padding-left: 5px;
+	float: right;
+}
+
+.find{
+	margin:22px -260px 0 0 ;
+	border: 1px solid #edb970;
+	height: 35px;
+
+
+}
+/*这些是实现在首页的搜索功能*/

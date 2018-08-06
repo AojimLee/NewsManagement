@@ -1,0 +1,91 @@
+<style type="text/css">
+			@charset "UTF-8";
+			* {
+				margin: 0;
+				padding: 0;
+				border: none;
+			}
+			
+			.banner_box {
+				position: relative;
+				/*attention*/
+				width: 960px;
+				height: 460px;
+				overflow: hidden;
+			}
+			
+			.banner_images {
+				position: absolute;
+				/*attention*/
+				left: 0;
+				width: 3840px;
+				/*attention please*/
+			}
+			
+			.banner_img {
+				float: left;
+				width: 25%;
+				/*attention please*/
+				height: 460px;
+			}
+			
+			.banner_img img {
+				width: 960px;
+				height: 600px;
+			}
+			
+			.switcher {
+				position: absolute;
+				top: 285px;
+				width: 960px;
+				display: none;
+			}
+			
+			.switcher p {
+				height: 50px;
+				width: 50px;
+				line-height: 50px;
+				text-align: center;
+				color: #fff;
+				font-size: 30px;
+				background: rgba(0, 0, 0, .8);
+				border-radius: 50%;
+				cursor: pointer;
+			}
+			
+			.switcher .prev {
+				float: left;
+				margin-left: 50px
+			}
+			
+			.switcher .next {
+				float: right;
+				margin-right: 50px;
+			}
+			
+			.banner_box:hover .switcher {
+				display: block;
+			}
+			
+			.points {
+				position: absolute;
+				left: 50%;
+				bottom: 30px;
+				width: 400px;
+				margin-left: -200px;
+				overflow: hidden;
+			}
+			
+			.points li {
+				width: 100px;
+				height: 5px;
+				background: rgba(0, 0, 0, .8);
+				float: left;
+				list-style: none;
+				cursor: Crosshair;
+			}
+			
+			.points li.point_on {
+				background: #C92027;
+			}
+		</style>
